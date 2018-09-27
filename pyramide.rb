@@ -3,6 +3,7 @@ print ">"
 nb = gets.chomp.to_i
 mes = "#"
 nb_espace = nb - 1
+puts "Voici la pyramide:"
 
 if 0 < nb && nb < 26
 	nb.times do
